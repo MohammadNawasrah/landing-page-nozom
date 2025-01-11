@@ -1,0 +1,25 @@
+{
+    "name": "nozom/landing-page-package",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Nozom\\LandingPagePackage\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Nozom\\LandingPagePackage\\LandingPageServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "MohammadNawasrah",
+            "email": "nawasrahmohammad2000@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.2"
+    }
+}
